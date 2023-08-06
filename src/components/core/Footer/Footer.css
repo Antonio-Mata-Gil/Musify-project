@@ -1,19 +1,19 @@
 .github-link{
     text-decoration: none;
-    color: rgb(248,214,172);
+    color: rgb(117, 117, 117);
 }
 
 .footer-link{
     text-decoration: none;
-    color: rgba(184, 248, 86, 0.657);
+    color: rgb(25, 111, 210);
 }
 
 .footer-container{
     margin: auto;
     width: 80%;
     border-top: 1px solid rgba(255, 255, 255, 0.555);
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     text-align: center;
     padding: 10px 0px;
     font-size: small;

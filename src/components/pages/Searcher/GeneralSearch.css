@@ -1,5 +1,5 @@
 .searchGeneral{
-    background-color: #000000;
+    background-color: white;
 }
 
 .search-list-container {
@@ -7,7 +7,7 @@
     grid-template-columns: 1fr;
     gap: 20px;
     padding-inline-start: 20px;
-    color: white;
+    color: black;
     padding-top: 10px;
     
   }
@@ -18,7 +18,7 @@
     align-items: center;
     gap: 10px;
     padding: 10px;
-    background-color: #1A1A1A;
+    background-color: white;
   }
   
   .search-list-img {

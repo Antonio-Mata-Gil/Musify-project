@@ -49,6 +49,7 @@
 }
 .name-class{
     font-weight: 600;
+    color: black;
 }
 .tracks-artist-data{
     margin-left: 10px;
@@ -73,6 +74,7 @@
 font-weight: 700;
 font-size: 16px;
 margin: 0;
+color: black;
 }
 .album-tracks-number{
     margin: 2px 0 0 0;
