@@ -1,0 +1,116 @@
+.artist-primary-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin-top: 50px;
+}
+.img-container-artist img{
+    width: 100%;
+}
+
+.img-container-artist {
+    width: 100%;
+    margin-right: 20px;
+    margin-bottom: 16px;
+}
+
+.name-artist{
+    margin: 20px 0px 0 0;
+    font-size: 2.5rem;
+}
+.genres-container{
+    margin: 0;
+    color: rgb(136, 136, 136);
+   
+    font-size: 1.8rem;
+}
+.genres-container::first-letter{
+    text-transform: uppercase;
+}
+
+.tracks-artist-container{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.li-container-tracks{
+    display: flex;
+    flex-direction: row;
+    width: 47%;
+    border: 2px solid rgb(211, 211, 227);
+    margin: 4px;
+    font-size: 12px;
+}
+.id-tracks{
+    background-color:rgb(211, 211, 227);
+    padding: 15px;
+}
+.name-class{
+    font-weight: 600;
+}
+.tracks-artist-data{
+    margin-left: 10px;
+}
+.container-albums-artist-data{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   margin-bottom: 60px;
+}
+.albums-artists-conainer{
+    width: 17%;
+    margin: 10px;
+}
+.img-album-artist{
+    width: 100%;
+}
+.data-album-container{
+    font-size: 15px;
+}
+.album-name{
+font-weight: 700;
+font-size: 16px;
+margin: 0;
+}
+.album-tracks-number{
+    margin: 2px 0 0 0;
+    color: rgb(136, 136, 136);
+}
+.albums-title{
+    font-size: 25px;
+    margin-left: 10px;
+    color: rgb(43, 43, 43);
+}
+
+.link-tracks-artist{
+    font-size: 16px;
+    margin: 0;
+}
+
+@media (max-width:1050px) {
+    .artist-primary-container{
+        flex-direction: column;
+    }
+    .img-container-artist{
+        width: 100%;
+        margin: 0;
+       
+    }
+    .img-container-artist img {
+        width: 45%;
+    }
+    .albums-artists-conainer {
+        width: 25%;
+    }
+     
+}
+@media (max-width:720px){
+    .artist-container{
+        width: 100%;
+    }
+    .li-container-tracks{
+        width: 100%;
+    }
+}

@@ -1,0 +1,119 @@
+.track-details {
+    background-color: black;
+    color: white;
+    padding: 100px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+}
+
+.details-img-div{
+    width: 40%;
+    margin-top: 5%;
+}
+
+.track-details-container {
+    padding-left: 50px;
+    width: 50%;
+}
+
+.track-details-image {
+    border-radius: 100px 0px 100px 0px;
+    width: 100%;
+    border: white 2px solid;
+}
+
+.track-details-image:hover {
+    border-radius: 100px 100px 100px 100px;
+    border: 2px rgb(112, 114, 207) solid;
+    transition-duration: 1s;
+}
+
+.detail-names{
+    flex-direction: column;
+}
+
+.details-trackname {
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin: 0;
+}
+
+.details-artistname {
+    font-weight: 300;
+    font-size: 28px;
+    letter-spacing: 2px;
+    margin: 0;
+    padding-bottom: 10px;
+    color: rgba(175, 177, 207, 0.594);
+}
+
+.details-info-container {
+    flex-wrap: wrap;
+}
+
+.each-div-detail {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid rgb(211,211,227);  
+    margin-bottom: 5px;  
+    height: auto;
+}
+
+.div-one{
+    width: 70%;
+    padding: 0 10px;    
+    display: flex;
+    align-items: center;
+}
+
+.div-two{
+    width: 30%;
+    background-color: rgb(211,211,227);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.album{
+    background-color: rgba(147, 151, 208, 0.594);
+}
+
+.text-link{
+    cursor: pointer;
+}
+
+.more{
+    color: rgb(175, 177, 207);
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+.more:hover{
+    color: white;
+    letter-spacing: 4px;
+    font-weight: 300;
+}
+
+@media (max-width:720px){
+    .track-details{
+        font-size: small;
+    }
+    .track-details-container{
+        width: 95%;
+        padding: 0;
+    }
+    .details-img-div{
+        width: 100%;
+    }
+    .more{
+        font-size: medium;
+    }
+    .track-details-image{
+        margin-bottom: 25px;
+    }
+    .details-info-container{
+        margin-top: 25px;
+    }
+}

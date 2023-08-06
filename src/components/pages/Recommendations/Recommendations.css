@@ -1,0 +1,29 @@
+.title-preferences {
+    font-weight: lighter;
+    font-size: 16px;
+    margin: 0;
+}
+
+.genres-ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(156, 157, 205);
+    margin: 15px 0 30px 0;
+    cursor: pointer;
+}
+
+.genres-ul:hover{
+    color: rgb(95, 30, 187);
+    transition-duration: 3s;
+}
+
+@media (max-width:720px){
+    .genres-ul{
+        font-size: 21px;
+    }
+    .title-preferences{
+        font-size: 20px;
+        font-weight: 300;
+    }
+}

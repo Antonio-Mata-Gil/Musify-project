@@ -1,0 +1,49 @@
+.general {
+    height: 100vh;
+    background-image: url('https://img.freepik.com/free-vector/gradient-particle-wave-background_23-2150517312.jpg');
+    background-size: cover;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .box-login {
+    background-color: rgba(255, 255, 255, 0.739); 
+    padding: 20px;
+    border-radius: 10px;
+    padding: 50px 50px 50px 50px;
+    box-shadow: 3px 8px 10px -3px black;
+    color: black;
+    text-align: center;
+  }
+  .subtitle{
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+  }
+  .btnLogin{
+    width: 60%;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    background-color: #5348cb;
+    color: white;
+    margin-top: 50px;
+    cursor: pointer;
+  }
+  
+  .btnLogin:hover{
+    transition-duration: 1.2s;
+    background-color: rgb(146, 18, 225);
+    border-radius: 40px;
+    width: 50%;
+  }
+
+  @media (max-width:520px){
+    .box-login{
+      width: 50%;
+    }
+  }

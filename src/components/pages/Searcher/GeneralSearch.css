@@ -1,0 +1,63 @@
+.searchGeneral{
+    background-color: #000000;
+}
+
+.search-list-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding-inline-start: 20px;
+    color: white;
+    padding-top: 10px;
+    
+  }
+  
+  .search-list-item {
+    display: grid;
+    grid-template-columns: 100px 1fr 100px;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #1A1A1A;
+  }
+  
+  .search-list-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-left: 0;
+  }
+  
+  .search-track-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .track-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .track-artist {
+    font-size: 14px;
+  }
+  
+  .search-album-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .search-album-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .search-artist-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .search-type {
+    font-size: 14px;
+    font-style: italic;
+  }

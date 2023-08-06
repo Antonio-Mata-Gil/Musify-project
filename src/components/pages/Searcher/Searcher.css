@@ -1,0 +1,30 @@
+.searcher{
+    width: 70%;
+    display: flex;
+    border:  2px solid #c1c1c1;
+    background-color: transparent;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.searcher-btn{
+    width: 50px;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    cursor: pointer;
+
+}
+.searcher-btn img{
+    margin:5px;
+    width: 25px;
+
+}
+
+.searcher-input{
+    width: 90%;
+    background-color: transparent;
+    border: none;
+    color: #c1c1c1;
+}
